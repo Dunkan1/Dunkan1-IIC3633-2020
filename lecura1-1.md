@@ -1,0 +1,7 @@
+este paper trataba de mejorar 2 aspectos: calidad de la recomendacion y la velocidad en largos datasets a traves de Item-Based Collaborative Filtering Recommendation Algorithms comparandolo ademas con k-nearest neighbor. primero se daba una breve intro a los Collaborative Filtering Process para luego explicar como son los basados en items (Item-Based Collaborative Filtering Algorithm) y por ultimo diferentes tecnicas para obtener recomendaciones de estos, para poder terminar con los experimentos.
+
+algo que me gustaria saber es la variedad de la BD usada, me explico, se dice en el paper que esta de peliculas y tambien nos dan el valor de la sparcity pero no se nos indica mas contexto, por ejemplo las peliculas que se tenian, a que categoria pertenecian, por ejemplo pudo pasar que al selecionar como dicen las catalogadas por cierta cantidad de usuarios, etc. solo quedaran peliculas de terror y por lo tanto no seria tan general la solucion.
+
+me gusto la forma en que seleccionaron los parametros para el experimento, haciendo experimentos previos para estos por ejemplo cuando se selecciono Adjusted cosine sobre el resto.
+
+algo que le falto al paper es que no se mencionan trabajos futuros, uno podria ser probar este sistema en otro tipo de BD, otro podria ser que en vez de seleccionar Adjusted cosine ver como los otros funcionan, podria ocurrir que Adjusted cosine da MAE menor pero los otros con distintas tecnicas desempeñan mejor.
