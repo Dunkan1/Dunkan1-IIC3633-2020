@@ -1,0 +1,9 @@
+El paper buscaba crear un sistema recomendador para un dataset de programas de television, debido a las caracteristicas de este dataset (sin feedback) se necesitaba un Collaborative Filtering con Feedback implicito, para esto usaron la informacion de una matriz que indicaba el numero de veces que un usuario vio un programa o un porcentaje de este, esta informacion la separaban en 2 variables una binaria que indicaba si se habia visto el programa y otra que ponderaba a la anterior, se creo ademas el sistema recomendador que es similar a las tecnicas de factorizacion de matriz, con la diferencia que aqui se usan las 2 variables anteriormente mencionadas. Por ultimo proponen una optimizacion que permite ademas tener mayor transparencia del proceso de recomendacion.
+
+me parecio interesante la manera en que la optimizacion ademas permitia una mayor transparencia, como muestran al final del paper que spider-man estaba relacionado con sintonizar otros programas de super-heroes.
+
+Ademas fue bueno que agregaran ajustes para resolver el problema de "que pasa si uno se queda en el mismo canal pero no esta viendo, entonces probablemente estaba interesado en el primero pero en los de despues no"
+
+a lo que le habria hecho pruebas tambien y que no hacen, fue la desicion arbitraria de poner que si no vez el 50% de un programa entonces $r_{ui}^{t}=0$ cuando puede que un mejor valor fuera 60% o 70%
+
+por ultimo ellos mencionan que usaron 4 semanas por que despues de eso los canales puede cambiar la programacion y por otro lado con menos semanas no se tenia la informacion suficiente, me gustaria saber como se podria implementar esto en television, porque cuando un canal por ejemplo HBO cambia su programacion puede que tal pelicula no vuelva a aparecer en ningun canal por mucho tiempo, esa informacion deberia quedarse? y como hacerlo porque distintos canales pueden tener distintos tiempos en los que cambian la programacion.
