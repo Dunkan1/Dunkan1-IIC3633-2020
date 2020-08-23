@@ -1,5 +1,4 @@
-este paper trataba de como, en la competicion de netflix este equipo llego estar en el top 10, un breve resumen de como lo hicieron ...
-esto es basicamente hacer SVD, de esta manera obtener las preferencias de usuarios por features y las features de las peliculas, para luego multiplicar ambas matrices obteniendo el ptje. asignado por ese usuario a esa pelicula. Tambien se usaron priors porque cuando solo 1 usuario a dado ptje a tal pelicula de manera de tener mas incerteza que cuando muchos usuarios lo han hecho
+Este paper trataba de como, en la competicion de netflix este equipo llego estar en el top 10. Resumiendo brevemente como lo hicieron, ellos basicamente usaron SVD, de manera de obtener las preferencias de usuarios por features y las features de las peliculas, para luego multiplicar ambas matrices obteniendo el ptje. asignado por ese usuario a esa pelicula. Tambien se usaron priors para que cuando solo 1 usuario a dado ptje. a tal pelicula se tenga mas incerteza en estos casos que cuando muchos usuarios le han asignado ptje.
 
 me habria gustado que contara porque se arrepiente de haber puesto lrate=0.001 [learning rate] cuando hace el entrenamiento del SVD-like model, y como esto afecta al resultado final. 
 
